@@ -3,3 +3,7 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+include:
+  - 20220516-Whitebit.-Gde-dengi,-Lebovski.md
+  - 20220519-Pokupki-paketov-po-margo6.md
+  - Game.-Registraciya-po-referalnoй-ssylke.md
