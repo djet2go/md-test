@@ -29,4 +29,3 @@ wikilinks:
       embed_image: 'embed-image'
   enabled: true
   exclude: []
-theme: jekyll-theme-leap-day
