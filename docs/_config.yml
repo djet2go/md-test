@@ -1,5 +1,9 @@
 plugins:
   - jekyll-relative-links
+  - jekyll-wikilinks
+  # - jekyll-gist
+  # - jekyll-coffeescript
+  # - jekyll-seo-tag
 relative_links:
   enabled: true
   collections: true
@@ -7,3 +11,21 @@ include:
   - 20220516-Whitebit.-Gde-dengi,-Lebovski.md
   - 20220519-Pokupki-paketov-po-margo6.md
   - Game.-Registraciya-po-referalnoй-ssylke.md
+wikilinks:
+  attributes:
+    enabled: true
+  css:
+    exclude: []
+    name:
+      typed: 'typed'
+      wiki: 'wiki-link'
+      web: 'web-link'
+      invalid_wiki: 'invalid-wiki-link'
+      embed_container: 'embed-container'
+      embed_title: 'embed-title'
+      embed_content: 'embed-content'
+      embed_link: 'embed-wiki-link'
+      embed_image_container: 'embed-image-container'
+      embed_image: 'embed-image'
+  enabled: true
+  exclude: []
